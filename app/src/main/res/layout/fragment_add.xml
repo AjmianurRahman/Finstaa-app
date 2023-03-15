@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AddFragment">
+<RelativeLayout
+    android:gravity="center_vertical"
+    android:id="@+id/addLayoutId"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    >
+
+    <ImageView
+        android:id="@+id/nextId"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/arrow_right" />
+
+    <ImageView
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:src="@drawable/arrow_left_24"
+        android:id="@+id/backButtonId"
+
+        />
+
+</RelativeLayout>
+    <EditText
+        android:layout_below="@id/addLayoutId"
+        android:id="@+id/addEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@android:color/transparent"
+        android:hint="Say Something about the Post"
+        android:maxLines="12"/>
+<ImageView
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:contentDescription="@null"
+    android:layout_below="@id/addEditTextId"
+    android:id="@+id/addImageViewId"
+    android:padding="8dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addRecyclerView"
+        android:layout_below="@id/addImageViewId"/>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "985845588435",
+    "project_id": "finstaa-164ba",
+    "storage_bucket": "finstaa-164ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985845588435:android:433932f228737190a2cf26",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985845588435-lrb2u8icucdaj47c8emhd62dorpjhik4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4d6aolUDvaa0bjLSvAzAQwKjx3KtL-04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985845588435-ie9qpou0c23qd43vqme0jikup1oopfp6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

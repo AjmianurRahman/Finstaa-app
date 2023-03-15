@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/chatDpId"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:src="@color/black" />
+
+    <TextView
+        android:id="@+id/chatNameId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="70dp"
+
+        android:layout_toStartOf="@id/chatTimeId"
+        android:text="Siam"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/chatmessageId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chatNameId"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/chatDpId"
+        android:text="the unseen text" />
+
+    <TextView
+        android:id="@+id/chatTimeId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="4dp"
+        android:text="Now"
+        android:textColor="@android:color/holo_green_light" />
+
+    <TextView
+        android:id="@+id/newMassageCountId"
+        android:layout_width="22sp"
+        android:layout_height="22sp"
+        android:layout_below="@+id/chatTimeId"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="4dp"
+        android:gravity="center"
+        android:text="2"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+</RelativeLayout>
